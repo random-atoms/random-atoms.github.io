@@ -9,7 +9,7 @@
     Directly cloned llama.cpp from github using https.
     Got cmake installed, built llama.cpp, but failed to run DeepSeek model directly from HuggingFace 
     because libcurl wasn't part of the build. Rebuilt after installing libcurl4-openssl-dev using sudo.
-    Will check if this works.
+    Needs to be compiled with the -DLLAMA_CURL=ON flag on for this to work.
   </p>
 </body>
 </html>
